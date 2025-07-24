@@ -36,6 +36,7 @@ A modern, responsive web app for booking doctor appointments — built with **Ne
 
 ## 🗂️ Folder Structure
 
+```bash
 doctor-appointment-ui/
 ├── app/ # Next.js App Router pages
 │ ├── login/ 
@@ -52,7 +53,7 @@ doctor-appointment-ui/
 ├── styles/ # Global Tailwind setup
 ├── README.md
 └── tsconfig.json
-
+```
 
 ---
 
