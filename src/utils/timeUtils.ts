@@ -1,12 +1,10 @@
-// utils/timeUtils.ts
-
 export function generateTimeSlots(start: string, end: string): string[] {
   const slots: string[] = [];
   let [h, m] = start.split(':').map(Number);
   const [endH, endM] = end.split(':').map(Number);
 
   while (h < endH || (h === endH && m < endM)) {
-    let endMin = m + 15;
+    const endMin = m + 15;
     let eh = h;
     let em = endMin;
 
