@@ -1,0 +1,136 @@
+
+[
+  {
+    "id": "d1",
+    "name": "Dr. A. Kumar",
+    "specialty": "General Consultant",
+    "location": "Hyderabad",
+    "workingHours": { "start": "17:00", "end": "18:00" },
+    "slotDuration": 7,
+    "imageUrl": "/avatars/doc1.jpg",
+    "availableToday": true,
+    "about": "Experienced in treating a wide range of general health conditions with a patient-first approach."
+  },
+  {
+    "id": "d2",
+    "name": "Dr. S. Rao",
+    "specialty": "Pediatrics",
+    "location": "Bangalore",
+    "workingHours": { "start": "10:00", "end": "14:00" },
+    "slotDuration": 7,
+    "imageUrl": "/avatars/doc2.jpg",
+    "availableToday": false,
+    "about": "Specializes in child health and development, offering care with compassion and expertise."
+  },
+  {
+    "id": "d3",
+    "name": "Dr. P. Singh",
+    "specialty": "Dermatology",
+    "location": "Mumbai",
+    "workingHours": { "start": "09:00", "end": "12:00" },
+    "slotDuration": 7,
+    "imageUrl": "/avatars/doc3.jpg",
+    "availableToday": true,
+    "about": "Expert in skin treatments, acne care, and cosmetic dermatology."
+  },
+  {
+    "id": "d4",
+    "name": "Dr. N. Patel",
+    "specialty": "Cardiology",
+    "location": "Chennai",
+    "workingHours": { "start": "15:00", "end": "18:00" },
+    "slotDuration": 7,
+    "imageUrl": "/avatars/doc4.jpg",
+    "availableToday": true,
+    "about": "Renowned for diagnosing and managing complex heart conditions."
+  },
+  {
+    "id": "d5",
+    "name": "Dr. R. Gupta",
+    "specialty": "Neurology",
+    "location": "Delhi",
+    "workingHours": { "start": "11:00", "end": "15:00" },
+    "slotDuration": 7,
+    "imageUrl": "/avatars/doc5.jpg",
+    "availableToday": false,
+    "about": "Treats neurological disorders including migraines, epilepsy, and stroke recovery."
+  },
+  {
+    "id": "d6",
+    "name": "Dr. L. Mehta",
+    "specialty": "Orthopedics",
+    "location": "Kolkata",
+    "workingHours": { "start": "09:00", "end": "13:00" },
+    "slotDuration": 7,
+    "imageUrl": "/avatars/doc6.jpg",
+    "availableToday": true,
+    "about": "Specialist in bone, joint, and musculoskeletal injuries and surgeries."
+  },
+  {
+    "id": "d7",
+    "name": "Dr. K. Singh",
+    "specialty": "Ophthalmology",
+    "location": "Chandigarh",
+    "workingHours": { "start": "14:00", "end": "18:00" },
+    "slotDuration": 7,
+    "imageUrl": "/avatars/doc7.jpg",
+    "availableToday": true,
+    "about": "Offers advanced eye care and specializes in cataract and LASIK surgery."
+  },
+  {
+    "id": "d8",
+    "name": "Dr. M. Khan",
+    "specialty": "ENT",
+    "location": "Pune",
+    "workingHours": { "start": "10:00", "end": "14:00" },
+    "slotDuration": 7,
+    "imageUrl": "/avatars/doc8.jpg",
+    "availableToday": false,
+    "about": "Treats ear, nose, and throat conditions with modern ENT procedures."
+  },
+  {
+    "id": "d9",
+    "name": "Dr. Y. Desai",
+    "specialty": "Gastroenterology",
+    "location": "Ahmedabad",
+    "workingHours": { "start": "09:00", "end": "12:00" },
+    "slotDuration": 7,
+    "imageUrl": "/avatars/doc1.jpg",
+    "availableToday": true,
+    "about": "Expert in digestive system disorders including liver, stomach, and bowel care."
+  },
+  {
+    "id": "d10",
+    "name": "Dr. V. Iyer",
+    "specialty": "Psychiatry",
+    "location": "Coimbatore",
+    "workingHours": { "start": "13:00", "end": "17:00" },
+    "slotDuration": 7,
+    "imageUrl": "/avatars/doc1.jpg",
+    "availableToday": false,
+    "about": "Provides compassionate treatment for anxiety, depression, and other mental health conditions."
+  },
+  {
+    "id": "d11",
+    "name": "Dr. S. Reddy",
+    "specialty": "Endocrinology",
+    "location": "Hyderabad",
+    "workingHours": { "start": "08:00", "end": "12:00" },
+    "slotDuration": 7,
+    "imageUrl": "/avatars/doc1.jpg",
+    "availableToday": true,
+    "about": "Specializes in treating hormonal imbalances including diabetes and thyroid disorders."
+  },
+  {
+    "id": "d12",
+    "name": "Dr. T. Roy",
+    "specialty": "Urology",
+    "location": "Bangalore",
+    "workingHours": { "start": "15:00", "end": "18:00" },
+    "slotDuration": 7,
+    "imageUrl": "/avatars/doc1.jpg",
+    "availableToday": false,
+    "about": "Expert in urinary tract and male reproductive health conditions."
+  }
+]
+
