@@ -38,21 +38,61 @@ A modern, responsive web app for booking doctor appointments — built with **Ne
 
 ```bash
 doctor-appointment-ui/
-├── app/ # Next.js App Router pages
-│ ├── login/ 
-│ ├── appointment/ # Doctor selection page
-│ ├── book/ # Date & time slot picker
-│ ├── confirmation/ # Success token page
-│ └── patient-details/ # Add patient information
-├── components/ # UI components (LoginForm, DoctorList, etc.)
-├── data/ # Static JSON for doctors & users
-├── services/ # API handlers (e.g., getDoctors)
-├── types/ # TypeScript interfaces
-├── utils/ # Validators, helpers
-├── public/ # Static assets (images, success badge)
-├── styles/ # Global Tailwind setup
-├── README.md
+├── public/
+│   └── favicon.ico
+├── src/
+│   ├── app/
+│   │   ├── api/
+│   │   │   ├── appointments/
+│   │   │   │   └── route.ts
+│   │   │   ├── auth/
+│   │   │   │   └── login/
+│   │   │   │       └── route.ts
+│   │   │   └── doctors/
+│   │   │       └── [[...params]]/
+│   │   │           └── route.ts
+│   │   ├── book/
+│   │   ├── confirmation/
+│   │   │   └── page.tsx
+│   │   ├── doctors/
+│   │   │   ├── layout.tsx
+│   │   │   └── page.tsx
+│   │   ├── login/
+│   │   │   └── page.tsx
+│   │   ├── otp/
+│   │   │   └── page.tsx
+│   │   ├── profile/
+│   │   │   └── page.tsx
+│   │   ├── records/
+│   │   │   └── page.tsx
+│   │   ├── signup/
+│   │   │   └── page.tsx
+│   │   ├── layout.tsx
+│   │   └── page.tsx
+│   ├── components/
+│   │   ├── BottomNav.tsx
+│   │   ├── ConfirmationCard.tsx
+│   │   ├── DoctorList.tsx
+│   │   ├── LoginForm.tsx
+│   │   ├── SignupForm.tsx
+│   │   ├── SlotPicker.tsx
+│   │   └── UserDetails.tsx
+│   ├── data/
+│   │   ├── appointments.json
+│   │   └── doctors.json
+│   ├── types/
+│   │   └── index.ts
+│   ├── globals.css
+│   └── ClientLayout.tsx
+├── .env.local
+├── .gitignore
+├── eslint.config.mjs
+├── next-env.d.ts
+├── next.config.ts
+├── package.json
+├── package-lock.json
 └── tsconfig.json
+
 ```
 
 ---
@@ -76,4 +116,13 @@ yarn install
 ```bash
 npm run dev
 ```
+## 🔐 Demo Login Credentials
+
+To access the application, use the following test credentials:
+
+**Email:** `vidya@email.com`  
+**Password:** `12345`
+
+These credentials can be used on the login page to explore the appointment booking flow.
+
 
