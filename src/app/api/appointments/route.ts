@@ -35,9 +35,12 @@ export async function POST(req: NextRequest) {
     time,
   };
   appointments.push(newAppt);
+  if (process.env.NODE_ENV === 'development') {
   writeFileSync(
     join(process.cwd(), 'src/data/appointments.json'),
     JSON.stringify(appointments, null, 2)
   );
+}
+
   return NextResponse.json(newAppt, { status: 201 });
 }

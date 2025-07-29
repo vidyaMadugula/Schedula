@@ -16,10 +16,6 @@ export default function LoginForm({ redirectTo = '/otp' }: LoginFormProps) {
   const router = useRouter();
 
   useEffect(() => setMounted(true), []);
-
-  // const onSubmit = async (data: { email: string; password: string }) => {
-  //   router.push(redirectTo);
-  // };
   const onSubmit = async (data: { email: string; password: string }) => {
   try {
     const response = await fetch('/api/auth/login', {
@@ -30,7 +26,7 @@ export default function LoginForm({ redirectTo = '/otp' }: LoginFormProps) {
 
     if (!response.ok) {
       const error = await response.json();
-      alert(error.error); // Show error message like "Invalid credentials"
+      alert(error.error); 
       return;
     }
 
